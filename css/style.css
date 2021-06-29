@@ -1,0 +1,60 @@
+body {
+
+    background-color: #E9ECEF; /* Arka plan rengi #E9ECEF olarak değiştirildi */
+}
+
+.card {
+
+    width: 15rem;
+    height: 25rem;
+    margin: auto;
+}
+
+.card-title {
+    color:#194350;
+    font-size: 16px;
+    margin-bottom: 12%;
+}
+
+.card-text {
+
+    color: blue;
+    border: 1px;
+    border-radius: 50%;
+    width: 600px;
+    height: 500px;
+}
+
+.fiyat {
+
+    color:rgb(5, 2, 20);
+    background-color:rgb(228, 226, 213);
+    border-radius: 24%;
+    padding: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    font-size: 14px;  
+}
+
+.card:hover{
+
+    transform: scale(1.05);
+    transition: 0.15s;
+    z-index: 1;
+    box-shadow: 8px 8px 6px rgb(139, 128, 132);
+    border-radius: 10px;
+}
+
+@media(max-width:768px){
+    
+    .card:hover{
+
+        transform:none;
+        transition: none;
+        z-index: none;
+        box-shadow:none;
+        border-radius: 10px;  
+    }
+}
+
+
+
