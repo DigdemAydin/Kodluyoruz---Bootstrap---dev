@@ -1,2 +1,2 @@
-# Kodluyoruz---Bootstrap---dev
+# KodluyoruzBootstrapOdev
 Kodluyoruz Eğitimi Bootstrap ödevlerini içerir 
